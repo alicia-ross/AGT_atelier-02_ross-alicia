@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Dancing';
+    src: url(../fonts/dancingscript-variablefont_wght-webfont.woff2) format("woff2"),
+        url(../fonts/dancingscript-variablefont_wght-webfont.woff) format("woff");
+}
+
+@font-face {
+    font-family: 'Permanent marker';
+    src: url(../fonts/permanentmarker-regular-webfont.woff2) format("woff2"),
+        url(../fonts/permanentmarker-regular-webfont.woff) format ("woff");
+}
+
+body {
+    background-color: rgb(248, 229, 232);
+}
+
+h1 {
+    text-align: center;
+    padding-top: 200px;
+    font-size: 60px;
+    font-family: 'Dancing';
+}
+
+p {
+    text-align: center;
+    font-size: 35px;
+    padding-top: 30px;
+    font-family: 'Permanent marker';
+}
